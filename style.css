@@ -208,8 +208,8 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  position: absolute;
-  top: 200px;
+  position: relative;
+  top: 150pxpx;
   left: 700px;
   right: 0;
   bottom: 0;
