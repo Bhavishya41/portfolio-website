@@ -133,6 +133,92 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
+/* Mobile Navigation */
+#nav-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav__menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  #nav-toggle {
+      display: block;
+      cursor: pointer;
+  }
+
+  .nav__link {
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+  }
+
+  .nav__menu.show {
+      display: flex;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home__data h1 {
+      font-size: 24px;
+  }
+
+  .home__data p {
+      font-size: 16px;
+  }
+
+  section {
+      padding: 30px;
+  }
+
+  .popup-content {
+      width: 90%;
+  }
+  
+  .hero {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .about__subtitle, .about__text {
+      font-size: 16px;
+  }
+
+  .skills__subtitle {
+      font-size: 20px;
+  }
+
+  .skills__text {
+      font-size: 16px;
+  }
+  
+  .work__img {
+      width: 100%;
+  }
+
+  .contact__input {
+      width: 100%;
+      padding: 10px;
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  .scroll-to-top {
+      right: 10px;
+      bottom: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero {
+      flex-direction: column;
+      text-align: center;
+  }
+}
+
 }
 .nav__item {
   margin-bottom: var(--mb-4);
@@ -161,6 +247,18 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  .scroll-to-top {
+      right: 10px;
+      bottom: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about__img, .work__img {
+      width: 100%;
+  }
+}
+
 
 /*Active menu*/
 .active-link::after {
@@ -494,6 +592,13 @@ img {
     width: 450px;
   }
 }
+@media only screen and (max-width: 600px) {
+    .scroll-to-top {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
 /* Skill Bar for Python */
 .skills__python {
     width: 100%;
@@ -579,4 +684,14 @@ img {
     text-decoration: none;
     cursor: pointer;
   }
-  
+  .popup-content {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .popup-content {
+        width: 90%;
+    }
+}
