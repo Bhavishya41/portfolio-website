@@ -208,8 +208,8 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  position: relative;
-  top: 150pxpx;
+  position: absolute;
+  top: 100px;
   left: 700px;
   right: 0;
   bottom: 0;
@@ -570,7 +570,7 @@ img {
     color: #aaa;
     float: right;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bo;
   }
   
   .close-btn:hover,
