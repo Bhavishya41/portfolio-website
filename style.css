@@ -149,6 +149,7 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: var(--shadow);
   transition: background 0.2s, color 0.2s;
   cursor: pointer;
+  text-align: center;
 }
 .button:hover {
   background: #fff;
