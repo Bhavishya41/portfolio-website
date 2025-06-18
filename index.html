@@ -165,11 +165,12 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" placeholder="Query" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Send" placeholder="Que" class="contact__button button">
+                <form method="POST" action="https://api.web3forms.com/submit" class="contact__form">
+                    <input type="hidden" name="access_key" value="9051c733-f5f7-4ad6-9572-6cef473dfcbc">
+                    <input type="text" name="name" placeholder="Name" class="contact__input">
+                    <input type="mail" name="email" placeholder="Email" class="contact__input">
+                    <textarea name="message" id="" placeholder="Query" cols="0" rows="10" class="contact__input"></textarea>
+                    <button type="submit" class="contact__button button">Send</button>
                 </form>
             </div>
         </section>

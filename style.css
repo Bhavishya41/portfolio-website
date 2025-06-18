@@ -164,10 +164,10 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .home__blob {
-  width: 300px; /* Adjust size as needed */
-  height: 300px; /* Make sure width and height are equal for a perfect circle */
+  width: 400px; /* Adjust size as needed */
+  height: 400px; /* Make sure width and height are equal for a perfect circle */
   border-radius: 50%; /* Make it a circle */
-  background: var(--first-color); /* Blue blob color */
+  /* background: var(--first-color); Blue blob color */
   display: flex;
   align-items: center;
   justify-content: center;
