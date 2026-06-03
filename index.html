@@ -1,210 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-    <!--=====BOX ICONS=====-->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Bhavishya Jain - Systems Engineer</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <!-- Add this in your <head> for Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>techiristic.dev</title>
+    <meta name="description" content="Full-stack engineer and Web3 developer. Building real-time infrastructure and on-chain protocols.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Sans:wght@400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">Bhavishya jain</a>
-            </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#adventures" class="nav__link">Adventures</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="sticky-nav" id="sticky-nav">
+        <a href="#hero" class="sticky-brand serif">bhavishya.</a>
+        <div class="sticky-links mono">
+            <a href="#stack">STACK</a>
+            <a href="#commits">WORK</a>
+            <a href="#record">RECORD</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+    <nav class="top-nav mono text-muted">
+        <span>VADODARA, IN</span>
+        <span>SOFTWARE ENGINEER // WEB3 & SYSTEMS</span>
+        <span>VOL. 1 — 2026</span>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-bio">
+            <h1 class="serif title">Bhavishya<br>Jain.</h1>
+            <p class="hero-copy serif">
+                Systems engineer and full-stack developer architecting resilient, high-performance infrastructure. Bridging the gap between scalable enterprise backend pipelines, real-time telemetry, and decentralized Web3 state systems.
+            </p>
+        </div>
+
+        <div class="hero-keyboard">
+            <div class="keyboard-panel" id="keyboard">
+                <div class="kb-label mono text-muted">MCHOSE G75 PRO · CLICK TO INTERACT</div>
+                <div class="kb-body">
+                    <div class="kb-row">
+                        <span class="key key-esc" data-key="ESC">ESC</span>
+                        <span class="key key-shortcut" data-key="1" data-section="experience">1</span>
+                        <span class="key key-shortcut" data-key="2" data-section="stack">2</span>
+                        <span class="key key-shortcut" data-key="3" data-section="commits">3</span>
+                        <span class="key key-shortcut" data-key="4" data-section="record">4</span>
+                        <span class="key key-shortcut" data-key="5" data-section="contact">5</span>
+                        <span class="key" data-key="6">6</span>
+                        <span class="key" data-key="7">7</span>
+                        <span class="key" data-key="8">8</span>
+                        <span class="key" data-key="9">9</span>
+                        <span class="key" data-key="0">0</span>
+                        <span class="key">-</span><span class="key">=</span>
+                        <span class="key key-mod k-2u" data-key="BKSP">⌫</span>
+                        <span class="key key-mod">DEL</span>
+                    </div>
+                    <div class="kb-row">
+                        <span class="key key-mod k-1_5u" data-key="TAB">TAB</span>
+                        <span class="key" data-key="Q">Q</span>
+                        <span class="key" data-key="W">W</span>
+                        <span class="key" data-key="E">E</span>
+                        <span class="key" data-key="R">R</span>
+                        <span class="key" data-key="T">T</span>
+                        <span class="key" data-key="Y">Y</span>
+                        <span class="key" data-key="U">U</span>
+                        <span class="key" data-key="I">I</span>
+                        <span class="key" data-key="O">O</span>
+                        <span class="key" data-key="P">P</span>
+                        <span class="key">[</span><span class="key">]</span>
+                        <span class="key key-mod k-1_5u">\</span>
+                        <span class="key key-mod">PGUP</span>
+                    </div>
+                    <div class="kb-row">
+                        <span class="key key-mod k-1_75u" data-key="CAPS">CAPS</span>
+                        <span class="key" data-key="A">A</span>
+                        <span class="key" data-key="S">S</span>
+                        <span class="key" data-key="D">D</span>
+                        <span class="key" data-key="F">F</span>
+                        <span class="key" data-key="G">G</span>
+                        <span class="key" data-key="H">H</span>
+                        <span class="key" data-key="J">J</span>
+                        <span class="key" data-key="K">K</span>
+                        <span class="key" data-key="L">L</span>
+                        <span class="key">;</span><span class="key">'</span>
+                        <span class="key key-mod k-2_25u" data-key="ENTER">ENTER ↵</span>
+                        <span class="key key-mod">PGDN</span>
+                    </div>
+                    <div class="kb-row">
+                        <span class="key key-mod k-2_25u" data-key="SHIFT">SHIFT ⇧</span>
+                        <span class="key" data-key="Z">Z</span>
+                        <span class="key" data-key="X">X</span>
+                        <span class="key" data-key="C">C</span>
+                        <span class="key" data-key="V">V</span>
+                        <span class="key" data-key="B">B</span>
+                        <span class="key" data-key="N">N</span>
+                        <span class="key" data-key="M">M</span>
+                        <span class="key">,</span><span class="key">.</span><span class="key">/</span>
+                        <span class="key key-mod k-1_75u" data-key="SHIFT">SHIFT ⇧</span>
+                        <span class="key key-mod">▲</span>
+                        <span class="key key-mod">END</span>
+                    </div>
+                    <div class="kb-row">
+                        <span class="key key-mod k-1_25u" data-key="CTRL">CTRL</span>
+                        <span class="key key-mod k-1_25u" data-key="WIN">WIN</span>
+                        <span class="key key-mod k-1_25u" data-key="ALT">ALT</span>
+                        <span class="key key-mod k-6_25u" data-key="SPACE"></span>
+                        <span class="key key-mod">ALT</span>
+                        <span class="key key-mod">FN</span>
+                        <span class="key key-mod">CTRL</span>
+                        <span class="key key-mod">◄</span>
+                        <span class="key key-mod">▼</span>
+                        <span class="key key-mod">►</span>
+                    </div>
+                </div>
+                <div class="kb-legend mono text-muted">
+                    <span><span class="legend-dot"></span>1 EXP</span>
+                    <span><span class="legend-dot"></span>2 STACK</span>
+                    <span><span class="legend-dot"></span>3 WORK</span>
+                    <span><span class="legend-dot"></span>4 RECORD</span>
+                    <span><span class="legend-dot"></span>5 CONTACT</span>
+                </div>
             </div>
-        </nav>
+        </div>
+
+        <div class="hero-telemetry mono">
+            <div class="tel-row">
+                <span class="tel-label">CURRENT_THREAD</span>
+                <span class="tel-value">Rust Lifetimes & Borrow Checker</span>
+            </div>
+            <div class="tel-row">
+                <span class="tel-label">HARDWARE_ENV</span>
+                <span class="tel-value">MChose G75 // Ryzen 7 5700U</span>
+            </div>
+            <div class="tel-row">
+                <span class="tel-label">BASE_OP</span>
+                <span class="tel-value">Vadodara, IN</span>
+            </div>
+        </div>
+
+        <div class="hero-experience">
+            <div class="hero-exp-item">
+                <div class="exp-details">
+                    <div class="serif exp-title">Full-Stack Developer Intern</div>
+                    <div class="mono exp-sub text-muted">CONCLUDED MAR 2026</div>
+                </div>
+                <a href="#commits" class="mono exp-link">b2bbilling ↵</a>
+            </div>
+            <div class="hero-exp-item">
+                <div class="exp-details">
+                    <div class="serif exp-title">Software Engineer</div>
+                    <div class="mono exp-sub text-muted">INCOMING FULL-TIME · MAY 2026</div>
+                </div>
+                <a href="#commits" class="mono exp-link">system_core ↵</a>
+            </div>
+        </div>
     </header>
 
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Bhavishya</span><br>Polymath
-                    individual</h1>
-
-                <button class="button" id="contact-btn">Contact Me</button>
-                <a href="images/Bhavishya resume.pdf" download class="button">Download Resume</a>
-            </div>
-            <div class="popup" id="popup">
-                <div class="popup-content">
-                    <span class="close-btn" id="close-popup">&times;</span>
-                    <h3>Contact Information</h3>
-                    <p>Instagram: <a href="https://www.instagram.com/duh.its._bhavishya"
-                            target="_blank">@duh.its._bhavishya</a></p>
-                    <p>WhatsApp: <a href="https://wa.me/9352521997" target="_blank">9352521997</a></p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/bhavishyajain44"
-                            target="_blank">bhavishyajain44</a></p>
-                    <p>Email: <a href="mailto:bhavishyajain707@gmail.com">bhavishyajain707@gmail.com</a></p>
-                </div>
-            </div>
-
-            <div class="home__img">
-                <div class="home__blob">
-                    <img class="home__blob-img" src="images/gurugram.jpg" alt="Bhavishya Jain">
-                </div>
-            </div>
-        </section>
-
-        <!--===== ABOUT =====-->
-        <section class="about section " id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="images/about .jpg" alt="">
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle">I'am Bhavishya</h2>
-                    <p class="about__text">Hello! I'm Bhavishya, a B.Tech student at ITM SLS Baroda University,
-                        currently in my first semester. With a strong foundation in Python and growing expertise in front-end
-                        development, I'm passionate about exploring the evolving world of technology. My primary
-                        interest lies in data science and data analytics, where I enjoy analyzing data, solving complex
-                        problems, and building innovative solutions.</p>
-                    <p class="about__text">Beyond academics, I'm also skilled in video editing and music production.
-                        I've had the opportunity to work with clients for video editing projects, creating engaging
-                        content for platforms like Instagram. Additionally, I produce hip-hop beats for rappers,
-                        blending my love for technology with my creative passions.</p>
-                </div>
-            </div>
-        </section>
-
-
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills__container bd-grid">
-                <div class="skills__categories">
-                    <div class="skills__category">
-                        <h3>Programming Languages</h3>
-                        <ul>
-                            <li><i class="fa-brands fa-python"></i> Python</li>
-                            <li><i class="fa-solid fa-code"></i> C++</li>
-                            <li><i class="fa-brands fa-js"></i> JavaScript</li>
-                            <li><i class="fa-solid fa-database"></i> SQL</li>
-                        </ul>
-                    </div>
-                    <div class="skills__category">
-                        <h3>Frontend Development</h3>
-                        <ul>
-                            <li><i class="fa-brands fa-html5"></i> HTML5</li>
-                            <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
-                            <li><i class="fa-brands fa-react"></i> React.js</li>
-                            <li><i class="fa-solid fa-wind"></i> Tailwind CSS</li>
-                        </ul>
-                    </div>
-                    <div class="skills__category">
-                        <h3>Backend Development</h3>
-                        <ul>
-                            <li><i class="fa-brands fa-node-js"></i> Node.js</li>
-                            <li><i class="fa-solid fa-server"></i> Express.js</li>
-                            <li><i class="fa-solid fa-link"></i> RESTful API Design</li>
-                            <li><i class="fa-solid fa-user-shield"></i> JWT authentication</li>
-                        </ul>
-                    </div>
-                    <div class="skills__category">
-                        <h3>Database &amp; Tools</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-database"></i> MySQL</li>
-                            <li><i class="fa-solid fa-leaf"></i> MongoDB (Basics)</li>
-                            <li><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</li>
-                            <li><i class="fa-solid fa-flask"></i> Postman</li>
-                            <li><i class="fa-brands fa-docker"></i></i> Docker</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--work-->
-        <section id="adventures" class="section adventures">
-            <h2 class="section-title">Adventures</h2>
-            <div class="work__container bd-grid">
-                <div class="work__img">
-                    <img src="images/work1.png" alt="Work 1">
-                    <a href="https://proof-of-ink.vercel.app/" class="button" target="_blank">Proof Of Ink</a>
-                    <a href="https://github.com/Bhavishya41/ProofOfInk"  class="button" target="_blank">Proof Of Ink Github</a>
-                </div>
-                <div class="work__img">
-                    <img src="images/work3.png" alt="Work 3">
-                    <a href="https://hotelbazar.org" class="button" target="_blank">freelance client project</a>
-                    <a href="https://github.com/Bhavishya41/hotel-bazaar" class="button" target="_blank">hotel bazar GitHub</a>
-                </div>
-                <div class="work__img">
-                    <img src="images/work4.png" alt="Work 4">
-                    <a href="https://orderly-two.vercel.app/" class="button" target="_blank">Orderly</a>
-                    <a href="https://github.com/Bhavishya41/Orderly" class="button" target="_blank">Orderly GitHub</a>
-                </div>
-                <div class="work__img">
-                    <img src="images/work2.jpg" alt="Work 2">
-                    <a href="https://saimonsaysbjain41.vercel.app/" class="button" target="_blank">Simon Says</a>
-                    <a href="https://github.com/Bhavishya41/saimon-says" class="button" target="_blank">Simon Says GitHub</a>
-                </div>
-            </div>
-        </section>
-
-
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact__container bd-grid">
-                <form method="POST" action="https://api.web3forms.com/submit" class="contact__form">
-                    <input type="hidden" name="access_key" value="9051c733-f5f7-4ad6-9572-6cef473dfcbc">
-                    <input type="text" name="name" placeholder="Name" class="contact__input">
-                    <input type="mail" name="email" placeholder="Email" class="contact__input">
-                    <textarea name="message" id="" placeholder="Query" cols="0" rows="10" class="contact__input"></textarea>
-                    <button type="submit" class="contact__button button">Send</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-        <p class="footer__title">Bhavishya jain</p>
-        <div class="footer__social">
-            <a href="https://www.linkedin.com/in/bhavishyajain44" class="footer__icon"><i
-                    class='bx bxl-linkedin'></i></a>
-            <a href="https://www.instagram.com/duh.its._bhavishya" class="footer__icon"><i
-                    class='bx bxl-instagram'></i></a>
-            <a href="https://github.com/Bhavishya41" class="footer__icon"><i class='bx bxl-github'></i></a>
+    <section class="section" id="stack">
+        <div class="section-header mono">
+            <span>01 // STACK</span>
+            <span>WHAT'S LOADED</span>
         </div>
-        <p class="footer__copy">&#169; futurecodes. All rigths reserved</p>
+        
+        <div class="stack-grid serif">
+            <div class="stack-row">
+                <div class="stack-label mono">LANGUAGES</div>
+                <div class="stack-data">TypeScript, JavaScript, Python, Rust, Solidity</div>
+            </div>
+            <div class="stack-row">
+                <div class="stack-label mono">CORE RUNTIMES</div>
+                <div class="stack-data">Node.js, Express, Flask, WebSockets, Redis</div>
+            </div>
+            <div class="stack-row">
+                <div class="stack-label mono">INTERFACE</div>
+                <div class="stack-data">Next.js, React, React Native, Tailwind CSS</div>
+            </div>
+            <div class="stack-row">
+                <div class="stack-label mono">COMPUTE &amp; AI</div>
+                <div class="stack-data">OpenCV, scikit-image, NumPy, Google Earth Engine</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="commits">
+        <div class="section-header mono">
+            <span>02 // SELECTED COMMITS</span>
+            <span>WHERE THE LOGIC GOES</span>
+        </div>
+
+        <div class="projects-list">
+            
+            <a href="https://www.b2bbilling.com/" target="_blank" rel="noopener" class="project-row">
+                <div class="project-content">
+                    <div class="project-meta mono">001 // ENTERPRISE_INFRA</div>
+                    <h3 class="serif project-name">b2bbilling</h3>
+                    <p class="serif project-desc">Architected a robust MERN stack product tracking high-volume enterprise billing and B2B courier logistics. Implemented strict type safety via TypeScript to handle complex invoicing workflows.</p>
+                    <div class="project-tags mono">Node.js, React, MongoDB, TypeScript</div>
+                </div>
+                <div class="project-action mono">↗</div>
+            </a>
+
+            <a href="https://bus-radar-user.vercel.app/" target="_blank" rel="noopener" class="project-row">
+                <div class="project-content">
+                    <div class="project-meta mono">002 // REAL_TIME_TELEMETRY</div>
+                    <h3 class="serif project-name">BusRadar</h3>
+                    <p class="serif project-desc">Constructed a live multi-vehicle tracking infrastructure using Socket.io and React Native across mobile and web ecosystems. Developed low-overhead coordinate streaming logic.</p>
+                    <div class="project-tags mono">Socket.io, React Native, Node.js</div>
+                </div>
+                <div class="project-action mono">↗</div>
+            </a>
+
+            <a href="https://tip-chain-delta.vercel.app/" target="_blank" rel="noopener" class="project-row">
+                <div class="project-content">
+                    <div class="project-meta mono">003 // GASLESS_ASSET_FACTORY</div>
+                    <h3 class="serif project-name">Tipchain</h3>
+                    <p class="serif project-desc">Engineered a cross-platform extension enabling gasless ERC-20 tipping via a Universal Gas Framework. Orchestrated backend interfaces with an on-chain smart contract factory.</p>
+                    <div class="project-tags mono">Solidity, Node.js, UGF SDK, OAuth 2.0</div>
+                </div>
+                <div class="project-action mono">↗</div>
+            </a>
+
+            <a href="https://aetriks-mvp.vercel.app/" target="_blank" rel="noopener" class="project-row">
+                <div class="project-content">
+                    <div class="project-meta mono">004 // DATA_PIPELINE</div>
+                    <h3 class="serif project-name">nagarDrishti</h3>
+                    <p class="serif project-desc">Built an environmental risk analysis platform combining satellite image data processing via Google Earth Engine with custom Gemini LLM intelligence.</p>
+                    <div class="project-tags mono">Google Earth Engine, Gemini API, Python</div>
+                </div>
+                <div class="project-action mono">↗</div>
+            </a>
+
+            <a href="https://proof-of-ink.vercel.app/" target="_blank" rel="noopener" class="project-row">
+                <div class="project-content">
+                    <div class="project-meta mono">005 // SIG_MATRIX_VERIFIER</div>
+                    <h3 class="serif project-name">ProofOfInk</h3>
+                    <p class="serif project-desc">Engineered an automated verification platform using OpenCV and scikit-image that extracts spatial gradient vectors via HOG and calculates structural similarity index thresholds.</p>
+                    <div class="project-tags mono">React, Flask, OpenCV</div>
+                </div>
+                <div class="project-action mono">↗</div>
+            </a>
+
+            <a href="https://github.com/Bhavishya41/price_drop" target="_blank" rel="noopener" class="project-row">
+                <div class="project-content">
+                    <div class="project-meta mono">006 // STATE_OBSERVER</div>
+                    <h3 class="serif project-name">price_drop</h3>
+                    <p class="serif project-desc">Developed a serverless state observer utility executed via GitHub Actions cron to target JSON endpoints on e-commerce platforms and dispatch Telegram telemetry alerts.</p>
+                    <div class="project-tags mono">Python, GitHub Actions, CI/CD</div>
+                </div>
+                <div class="project-action mono">↗</div>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="section" id="record">
+        <div class="section-header mono">
+            <span>03 // TRACK RECORD</span>
+            <span>THE TROPHY SHELF</span>
+        </div>
+
+        <div class="stats-strip">
+            <div class="stat-cell">
+                <div class="stat-number serif">100+</div>
+                <div class="stat-caption mono">LEETCODE ALGORITHMS SOLVED<br>(CONTEST RATING: 1509)</div>
+            </div>
+            <div class="stat-cell">
+                <div class="stat-number serif">50</div>
+                <div class="stat-caption mono">DAY CONTINUOUS SOLVE STREAK<br>MAINTAINED ON LEETCODE</div>
+            </div>
+            <div class="stat-cell">
+                <div class="stat-number serif">05</div>
+                <div class="stat-caption mono">PRODUCTION-READY LANGUAGES<br>(JS, TS, PY, RS, SOL)</div>
+            </div>
+            <div class="stat-cell">
+                <div class="stat-number serif">26</div>
+                <div class="stat-caption mono">PUBLIC GITHUB REPOSITORIES<br>SHIPPED TO PRODUCTION</div>
+            </div>
+        </div>
+
+        <div class="achievement-grid">
+            <div class="achievement-entry">
+                <div class="achievement-date mono">RECENT</div>
+                <div class="achievement-title serif">1st runner up — Aetriks Hackathon</div>
+                <div class="achievement-org mono">PDEU UNIVERSITY, GANDHINAGAR</div>
+            </div>
+            <div class="achievement-entry">
+                <div class="achievement-date mono">RECENT</div>
+                <div class="achievement-title serif">5th Place (Out of 75 Teams) — CodeClash</div>
+                <div class="achievement-org mono">ITM COLLEGE</div>
+            </div>
+            <div class="achievement-entry">
+                <div class="achievement-date mono">ONGOING</div>
+                <div class="achievement-title serif">Invited Speaker — CP Workshop for Freshers</div>
+                <div class="achievement-org mono">ITM COLLEGE</div>
+            </div>
+            <div class="achievement-entry">
+                <div class="achievement-date mono">MARCH · 2026</div>
+                <div class="achievement-title serif">Shipped B2B Billing & Logistics Engine</div>
+                <div class="achievement-org mono">FULL-STACK DEVELOPER INTERNSHIP</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="section-header mono">
+            <span>04 // SIGNAL</span>
+            <span>LET'S CONNECT</span>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-cta">
+                <h2 class="serif footer-headline">Deploying<br>a new<br>architecture?</h2>
+            </div>
+
+            <div class="footer-data">
+                <div class="contact-row">
+                    <span class="contact-label mono">EMAIL</span>
+                    <a href="mailto:bhavishyajain707@gmail.com" class="contact-link serif" id="contact-email">bhavishyajain707@gmail.com</a>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-label mono">GITHUB</span>
+                    <a href="https://github.com/Bhavishya41/" target="_blank" rel="noopener" class="contact-link serif" id="contact-github">github.com/Bhavishya41</a>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-label mono">LINKEDIN</span>
+                    <a href="https://www.linkedin.com/in/bhavishyajain44/" target="_blank" rel="noopener" class="contact-link serif" id="contact-linkedin">linkedin.com/in/bhavishyajain44</a>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-label mono">X / TWITTER</span>
+                    <a href="https://x.com/bhavishyaj_ain" target="_blank" rel="noopener" class="contact-link serif" id="contact-twitter">@bhavishyaj_ain</a>
+                </div>
+
+                <div class="resume-action">
+                    <a href="Bhavishya resume.pdf" download class="resume-link mono" id="resume-download">
+                        <span class="resume-arrow">↓</span> DOWNLOAD RESUME.PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="colophon mono text-muted">
+        <div class="colophon-row">
+            <span>© 2026 BHAVISHYA JAIN</span>
+            <span>BUILT WITH RAW HTML, CSS, JS</span>
+            <span>NO FRAMEWORKS WERE HARMED</span>
+        </div>
     </footer>
 
+    <script src="index.js"></script>
 
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
-    <script src="main.js"></script>
 </body>
-
 </html>
-
-
