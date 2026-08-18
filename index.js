@@ -10,10 +10,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Mapping physical keyboard 'code' (e.g., 'Digit1') to index.html data-key attributes
     const shortcutMap = {
-        'Digit1': 'stack',
-        'Digit2': 'commits',
-        'Digit3': 'record',
-        'Digit4': 'contact'
+        'Digit1': 'experience',
+        'Digit2': 'stack',
+        'Digit3': 'commits',
+        'Digit4': 'record',
+        'Digit5': 'contact'
     };
 
     let ctrlLeftTimeout = null;

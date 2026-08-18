@@ -21,6 +21,7 @@
     <nav class="sticky-nav" id="sticky-nav">
         <a href="#hero" class="sticky-brand serif">bhavishya.</a>
         <div class="sticky-links mono">
+            <a href="#experience">EXPERIENCE</a>
             <a href="#stack">STACK</a>
             <a href="#commits">WORK</a>
             <a href="#record">RECORD</a>
@@ -50,11 +51,11 @@
                 <div class="kb-body">
                     <div class="kb-row">
                         <span class="key key-esc" data-key="Escape">ESC</span>
-                        <span class="key key-shortcut" data-key="Digit1" data-section="stack">1</span>
-                        <span class="key key-shortcut" data-key="Digit2" data-section="commits">2</span>
-                        <span class="key key-shortcut" data-key="Digit3" data-section="record">3</span>
-                        <span class="key key-shortcut" data-key="Digit4" data-section="contact">4</span>
-                        <span class="key" data-key="Digit5">5</span>
+                        <span class="key key-shortcut" data-key="Digit1" data-section="experience">1</span>
+                        <span class="key key-shortcut" data-key="Digit2" data-section="stack">2</span>
+                        <span class="key key-shortcut" data-key="Digit3" data-section="commits">3</span>
+                        <span class="key key-shortcut" data-key="Digit4" data-section="record">4</span>
+                        <span class="key key-shortcut" data-key="Digit5" data-section="contact">5</span>
                         <span class="key" data-key="Digit6">6</span>
                         <span class="key" data-key="Digit7">7</span>
                         <span class="key" data-key="Digit8">8</span>
@@ -128,7 +129,7 @@
                     </div>
                 </div>
                 <div class="kb-legend mono text-muted">
-                    <span><span class="legend-dot"></span>1 EXP</span>
+                    <span><span class="legend-dot"></span>1 EXPERIENCE</span>
                     <span><span class="legend-dot"></span>2 STACK</span>
                     <span><span class="legend-dot"></span>3 WORK</span>
                     <span><span class="legend-dot"></span>4 RECORD</span>
@@ -152,7 +153,17 @@
             </div>
         </div>
 
-        <div class="hero-experience">
+        <div class="hero-experience" id="experience">
+            <div class="section-header mono">
+                <span>01 // EXPERIENCE</span>
+                <span>WHERE I BUILD</span>
+            </div>
+            <div class="hero-exp-item">
+                <div class="exp-details">
+                    <div class="serif exp-title">Software Engineering Intern</div>
+                    <div class="mono exp-sub text-muted">LTTS · AUG 2026 - PRESENT</div>
+                </div>
+            </div>
             <div class="hero-exp-item">
                 <div class="exp-details">
                     <div class="serif exp-title">Full-Stack Developer Intern</div>
@@ -160,19 +171,12 @@
                 </div>
                 <a href="#commits" class="mono exp-link">b2bbilling ↵</a>
             </div>
-            <div class="hero-exp-item">
-                <div class="exp-details">
-                    <div class="serif exp-title">Software Engineer</div>
-                    <div class="mono exp-sub text-muted">INCOMING FULL-TIME · MAY 2026</div>
-                </div>
-                <a href="#commits" class="mono exp-link">system_core ↵</a>
-            </div>
         </div>
     </header>
 
     <section class="section" id="stack">
         <div class="section-header mono">
-            <span>01 // STACK</span>
+            <span>02 // STACK</span>
             <span>WHAT'S LOADED</span>
         </div>
 
@@ -191,14 +195,14 @@
             </div>
             <div class="stack-row">
                 <div class="stack-label mono">COMPUTE &amp; AI</div>
-                <div class="stack-data">OpenCV, scikit-image, NumPy, Google Earth Engine</div>
+                <div class="stack-data">OpenCV, scikit-image, NumPy, Google Earth Engine, HDF5</div>
             </div>
         </div>
     </section>
 
     <section class="section" id="commits">
         <div class="section-header mono">
-            <span>02 // SELECTED COMMITS</span>
+            <span>03 // SELECTED COMMITS</span>
             <span>WHERE THE LOGIC GOES</span>
         </div>
 
@@ -216,9 +220,24 @@
                 <div class="project-action mono">↗</div>
             </a>
 
+            <a class="project-row" style="cursor: default;">
+                <div class="project-content">
+                    <div class="project-meta mono">002 // CORE_SYSTEMS_ENGINEERING</div>
+                    <h3 class="serif project-name">Compression Engine</h3>
+                    <p class="serif project-desc">Architected an internal HDF5 data compression pipeline to replace proprietary tooling (Femzip) for LS-DYNA crash simulations at LTTS. Achieved a ~78% size reduction (6.95 GB down to 1.5 GB) using multi-stage quantization and EPS telemetry decimation.</p>
+                    <div class="project-tags mono">HDF5, Data Compression, Quantization, Telemetry Decimation</div>
+                </div>
+                <div class="project-action">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                </div>
+            </a>
+
             <a href="https://bus-radar-user.vercel.app/" target="_blank" rel="noopener" class="project-row">
                 <div class="project-content">
-                    <div class="project-meta mono">002 // REAL_TIME_TELEMETRY</div>
+                    <div class="project-meta mono">003 // REAL_TIME_TELEMETRY</div>
                     <h3 class="serif project-name">BusRadar</h3>
                     <p class="serif project-desc">Constructed a live multi-vehicle tracking infrastructure using
                         Socket.io and React Native across mobile and web ecosystems. Developed low-overhead coordinate
@@ -230,7 +249,7 @@
 
             <a href="https://tip-chain-delta.vercel.app/" target="_blank" rel="noopener" class="project-row">
                 <div class="project-content">
-                    <div class="project-meta mono">003 // GASLESS_ASSET_FACTORY</div>
+                    <div class="project-meta mono">004 // GASLESS_ASSET_FACTORY</div>
                     <h3 class="serif project-name">Tipchain</h3>
                     <p class="serif project-desc">Engineered a cross-platform extension enabling gasless ERC-20 tipping
                         via a Universal Gas Framework. Orchestrated backend interfaces with an on-chain smart contract
@@ -242,7 +261,7 @@
 
             <a href="https://aetriks-mvp.vercel.app/" target="_blank" rel="noopener" class="project-row">
                 <div class="project-content">
-                    <div class="project-meta mono">004 // DATA_PIPELINE</div>
+                    <div class="project-meta mono">005 // DATA_PIPELINE</div>
                     <h3 class="serif project-name">nagarDrishti</h3>
                     <p class="serif project-desc">Built an environmental risk analysis platform combining satellite
                         image data processing via Google Earth Engine with custom Gemini LLM intelligence.</p>
@@ -253,7 +272,7 @@
 
             <a href="https://proof-of-ink.vercel.app/" target="_blank" rel="noopener" class="project-row">
                 <div class="project-content">
-                    <div class="project-meta mono">005 // SIG_MATRIX_VERIFIER</div>
+                    <div class="project-meta mono">006 // SIG_MATRIX_VERIFIER</div>
                     <h3 class="serif project-name">ProofOfInk</h3>
                     <p class="serif project-desc">Engineered an automated verification platform using OpenCV and
                         scikit-image that extracts spatial gradient vectors via HOG and calculates structural similarity
@@ -280,7 +299,7 @@
 
     <section class="section" id="record">
         <div class="section-header mono">
-            <span>03 // TRACK RECORD</span>
+            <span>04 // TRACK RECORD</span>
             <span>THE TROPHY SHELF</span>
         </div>
 
@@ -305,12 +324,12 @@
 
         <div class="achievement-grid">
             <div class="achievement-entry">
-                <div class="achievement-date mono">RECENT</div>
+                <div class="achievement-date mono">MAY · 2026</div>
                 <div class="achievement-title serif">1st runner up — Aetriks Hackathon</div>
                 <div class="achievement-org mono">PDEU UNIVERSITY, GANDHINAGAR</div>
             </div>
             <div class="achievement-entry">
-                <div class="achievement-date mono">RECENT</div>
+                <div class="achievement-date mono">JAN · 2025</div>
                 <div class="achievement-title serif">5th Place (Out of 75 Teams) — CodeClash</div>
                 <div class="achievement-org mono">ITM COLLEGE</div>
             </div>
@@ -329,7 +348,7 @@
 
     <section class="section" id="contact">
         <div class="section-header mono">
-            <span>04 // SIGNAL</span>
+            <span>05 // SIGNAL</span>
             <span>LET'S CONNECT</span>
         </div>
 
